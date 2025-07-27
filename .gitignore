@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Logs and database
+logs/
+*.log
+db.sqlite3
+
+# Environment variables and config
+.env
+
+# Cached files
+.cache/
+*.bak
+
+# Ignore data files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+
+# Ignore compiled code and packages
+dist/
+build/
+*.egg-info/
+
+# Ignore IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
